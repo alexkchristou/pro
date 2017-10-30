@@ -18,7 +18,6 @@ void Animal::print(){
 	cout<<"Species is : "<<species_<<endl;
 	cout<<"nu legs is : "<<number_of_legs_<<endl;
 	cout<<"gender  is : "<<gender_<<endl;
-	cout<<endl;
 }
 
 bool Animal::operator==(const Animal &animal1)const{

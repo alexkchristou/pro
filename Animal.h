@@ -7,6 +7,9 @@ namespace Alex {
 
 class Animal {
 public:
+
+	Animal(){};
+
 	Animal(std::string name);
 
 	void print();
@@ -17,7 +20,7 @@ public:
 
 	bool operator==(const Animal &animal1)const;
 
-private:
+protected:
 	std::string name_;
 	std::string species_;
 	int number_of_legs_;
